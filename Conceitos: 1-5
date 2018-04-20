@@ -1,0 +1,32 @@
+def questao1():
+    return 5**2, 9*5, 15/12, 12/15, 15//12, 12//15, 5%2, 9%5, 15%12, 12%15, 6%6, 0%7
+
+def questao2():
+    return 5, 'da tarde'
+
+def questao2(a,b):
+    tempo = b%24
+    return a+tempo
+
+from datetime import date
+
+def questao4(a,c):
+    a = date.today()
+    futuro = date.fromordinal(a.toordinal()+c)
+    dias = ('segunda-feira','terça-feira','quarta-feira','quinta-feira','sexta-feira','sábado','domingo')
+    
+    return dias[futuro.weekday()]
+
+def questao5():
+    a = str('Só')
+    b = str('trabalho')
+    c = str('sem')
+    d = str('diversão')
+    e = str('faz')
+    f = str('de')
+    g = str('João')
+    h = str('em')
+    i = str('chato')
+
+    return print(a, b, c, d, e, f, g, h, i)
+
