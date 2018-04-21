@@ -2,7 +2,7 @@ def questao1():
     return 5**2, 9*5, 15/12, 12/15, 15//12, 12//15, 5%2, 9%5, 15%12, 12%15, 6%6, 0%7
 
 def questao2():
-    return 5, 'da tarde'
+    return print("5 da tarde")
 
 def questao2(a,b):
     tempo = b%24
