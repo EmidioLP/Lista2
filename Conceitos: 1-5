@@ -10,12 +10,8 @@ def questao2(a,b):
 
 from datetime import date
 
-def questao4(a,c):
-    a = date.today()
-    futuro = date.fromordinal(a.toordinal()+c)
-    dias = ('segunda-feira','terça-feira','quarta-feira','quinta-feira','sexta-feira','sábado','domingo')
+def questao4(a,b,c):
     
-    return dias[futuro.weekday()]
 
 def questao5():
     a = str('Só')
