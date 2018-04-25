@@ -8,11 +8,14 @@ def questao2(a,b):
     tempo = b%24
     return a+tempo
 
-from datetime import date
 
-def questao4(s,m,f):
+def questao4(m,s,f):
+    f = f+m
+    t = f%30
+    rs = t%7
+    return print("Mês =", t,"Dia da semana =", rs)
     
-
+    
 def questao5():
     a = str('Só')
     b = str('trabalho')
