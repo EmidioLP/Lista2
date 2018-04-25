@@ -4,7 +4,7 @@ def questao1():
 def questao2():
     return ("5 da tarde")
 
-def questao2(a,b):
+def questao3(a,b):
     tempo = b%24
     return a+tempo
 
